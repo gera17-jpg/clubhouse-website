@@ -1,0 +1,170 @@
+*{
+    margin:0;
+    padding: 0;
+    color: #fff;
+    font-size: 18px;
+}
+header{
+    display: flex;
+    background-color: #fff;
+    justify-content: space-around;
+    align-items: center;
+    height: 4em;
+    padding: 2px;
+    
+}
+header a{
+    color: rgb(86, 86, 235);
+    text-decoration: none;
+    align-self: center;
+}
+figure>img{
+    height:3em;
+    width: 6em;
+}
+nav{
+    width: 80%;
+    background-color: #000;
+    height: 4em;
+    margin-left: 7.5em;
+    border-radius: 0 0 0 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 3em;
+    position: absolute;
+    
+}
+nav a{
+    align-self: center;
+    text-decoration: none;
+    margin-right: 2em;
+    color: #fff;
+
+}
+.banner{
+    height: 35em;
+    width: auto;
+    background-image: url(images/clubhouse.jpg),url(images/clubhouse2.jpg),url(images/clubhouse3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+.banner h1{
+    align-self: center;
+    margin:4em;
+    font-size: 2.5em;
+}
+.banner a{
+    border:2px solid white;
+    border-radius: 25%;
+    padding: 2em;
+    text-decoration: none;
+    color: #fff;
+    
+}
+.banner a:hover{
+    background-color: #fff;
+    color: #000;  
+}
+.about_us{
+    display: flex;
+    margin:3em;
+}
+.a{
+    margin-right: 2em;
+    text-align: start;
+    margin-top: 3em;
+}
+.a h2{
+    color:rgb(86, 86, 235) ;
+    font-size: 4.5em;
+}
+.a p,button{
+    color: #000;
+    line-height: 2em;
+}
+button{
+    padding:1em;
+
+}
+.b img{
+    width:24em;
+    height: 25em;
+}
+.border{
+    display: block;
+    margin-left: 3em;
+}
+.c h2{
+    color: rgb(86, 86, 235);
+    font-size: 3em;
+    text-align: center;
+    text-decoration: underline;
+}
+section h2{
+    color: #000;
+    font-size:2.5em ;
+}
+section img{
+    width: 22em;
+    height: 20em;
+}
+.border2{
+    background-color:rgb(86, 86, 235) ;
+    display: flex;
+    padding-bottom: 3em;
+
+}
+.border2 h3,p,a,input{
+    color: #000;
+
+}
+.border2 h3{
+    font-size: 3em;
+    text-decoration: underline;
+    margin: 2.5em 1em 0.5em 2em;
+
+}
+.border2 img{
+    height:7em;
+    width: 10em;
+    margin: 2.5em;
+
+}
+.border2 p,a{
+    margin-left: 6em;
+}
+[type$="text"]{
+    width:15em;
+    height:8em;
+    background-color:rgb(152, 152, 231) ;
+    border: none;
+    margin-left:6em ;
+}
+.topbutton button{
+    display:block;
+    font-size: 1em;
+    background-color: rgb(36, 36, 155);
+    padding: 1em;
+    color: #fff;
+    border: none;
+    position: fixed;
+    left:94.5%;
+    bottom:10px;
+}
+footer{
+    height: 3em;
+    background-color:rgb(152, 152, 231) ;
+    display:flex
+    align-items:center;
+    
+}
+footer p{
+    text-align: center;
+    color: #fff;
+    align-self: center;
+}
